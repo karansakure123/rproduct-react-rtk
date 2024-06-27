@@ -9,7 +9,7 @@ const Cart = () => {
   return (
     <>
 
-      <h2>Carts</h2>
+      <h2 className='text-center mt-5  text-4xl text-purple-700 font-serif'>Carts</h2>
       <div className="products-section grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
       {products.map(product => (
         <div className="cardss" key={product.id}>
